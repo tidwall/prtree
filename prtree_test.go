@@ -14,7 +14,6 @@ import (
 
 func init() {
 	seed := time.Now().UnixNano()
-	seed = 1612713107378415000
 	println("seed:", seed)
 	rand.Seed(seed)
 }
